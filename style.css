@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(250, 193, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+input {
+    padding: 0.6rem 0.4rem;
+    width: 600px;
+}
+button{
+    width: 60px;
+    cursor: pointer;
+}
+.para{
+    color: green;
+    font-size: 1.2rem;
+}
